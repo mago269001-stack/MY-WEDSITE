@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人線上履歷 - 陳華萱</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'NotoSans TC', sans-serif;
+        }
+        @media print {
+            .no-print {
+                display: none !important;
+            }
+            body {
+                background: white !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 antialiased">
+
+    <!-- 頂部導覽列 -->
+    <nav class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 no-print">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-xl bg-[#958FD6] text-white flex items-center justify-center font-bold text-sm shadow-sm">
+                    華
+                </div>
+                <span id="nav-name" class="font-bold text-slate-800 text-sm sm:text-base">陳華萱 (Hua-Xuan Chen)</span>
+            </div>
+            <div class="flex items-center space-x-3">
+                <button onclick="window.print()" class="inline-flex items-center space-x-2 bg-[#958FD6] hover:bg-[#8178c7] text-white text-xs sm:text-sm font-medium px-4 py-2 rounded-xl transition shadow-xs">
+                    <i class="fa-solid fa-print"></i>
+                    <span>列印 / 匯出 PDF</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 主要內容區 -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+        <!-- 履歷表頭：個人資訊區塊 -->
+        <header class="bg-gradient-to-br from-[#958FD6] to-[#66BFD6] rounded-3xl p-6 sm:p-10 text-white shadow-xl relative overflow-hidden">
+            <div class="absolute right-10 -bottom-10 w-60 h-60 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="absolute right-40 top-0 w-32 h-32 bg-[#D6AD9C]/20 rounded-full blur-xl pointer-events-none"></div>
+
+            <div class="relative z-10 flex flex-col md:flex-row items-center md:items-start gap-6">
+                <!-- 大頭貼 -->
+                <div class="w-32 h-32 sm:w-36 sm:h-36 rounded-2xl bg-white p-1.5 shadow-md flex-shrink-0 flex items-center justify-center overflow-hidden">
+                    <img id="avatar-img" src="" alt="大頭貼" class="w-full h-full object-contain bg-slate-100 rounded-xl">
+                </div>
+
+                <div class="flex-1 text-center md:text-left space-y-3">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2">
+                        <h1 id="header-name" class="text-2xl sm:text-3xl font-bold tracking-wide">
+                            陳華萱 <span class="text-base sm:text-lg font-normal text-white/90">Hua-Xuan Chen</span>
+                        </h1>
+                        <span id="header-status" class="inline-flex items-center justify-center px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-semibold text-white border border-white/30 self-center md:self-auto">
+                            <i class="fa-solid fa-circle text-[#71D68D] text-[8px] mr-1.5 animate-pulse"></i>求職中 
+                        </span>
+                    </div>
+
+                    <div id="header-title" class="text-sm sm:text-base font-medium text-white/95">
+                        希望職稱：<span class="bg-white/20 px-2.5 py-0.5 rounded text-white font-semibold">行政人員 / 視覺美編 / 行銷企劃人員 / 多媒體設計</span>
+                    </div>
+
+                    <!-- 聯絡方式快速列 -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 text-xs sm:text-sm text-white/90">
+                        <div class="flex items-center justify-center md:justify-start space-x-2">
+                            <i class="fa-solid fa-phone text-white/80"></i>
+                            <span id="contact-phone">0980-810-286</span>
+                        </div>
+                        <div class="flex items-center justify-center md:justify-start space-x-2">
+                            <i class="fa-solid fa-envelope text-white/80"></i>
+                            <span id="contact-email">mago269001@gmail.com</span>
+                        </div>
+                        <div class="flex items-center justify-center md:justify-start space-x-2">
+                            <i class="fa-solid fa-location-dot text-white/80"></i>
+                            <span id="contact-location">桃園市龜山區 (雙北/桃園地區)</span>
+                        </div>
+                        <div class="flex items-center justify-center md:justify-start space-x-2">
+                            <i class="fa-solid fa-graduation-cap text-white/80"></i>
+                            <span id="contact-education">中國科技大學 視覺傳達科 二專畢業</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 個人簡介摘要 -->
+            <div id="header-summary" class="mt-6 pt-6 border-t border-white/20 text-white/95 text-sm sm:text-base leading-relaxed">
+                擁有近 20 年豐富的跨領域實務經歷（涵蓋行政管理、美編設計、業務客服與生管排程）。具備高度學習力與積極行動力，擅長將美編設計專長（Illustrator、Photoshop）與行政庶務、ERP 系統、AI 協作工具（ChatGPT）完美結合。工作態度嚴謹細心，重視團隊溝通與跨部門協作，致力於透過專業與效率，成為讓團隊信賴、讓客戶安心的核心夥伴。
+            </div>
+        </header>
+
+        <!-- 核心技能區 -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/60 space-y-6">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold text-slate-800 flex items-center space-x-2">
+                    <span class="w-2.5 h-6 bg-[#958FD6] rounded-full"></span>
+                    <span>核心技能專長</span>
+                </h2>
+            </div>
+            <div id="skills-container" class="grid grid-cols-1 md:grid-cols-3 gap-4"></div>
+        </section>
+
+        <!-- 工作經歷區 -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/60 space-y-6">
+            <div class="flex items-center justify-between">
+                <h2 class="text-xl font-bold text-slate-800 flex items-center space-x-2">
+                    <span class="w-2.5 h-6 bg-[#66BFD6] rounded-full"></span>
+                    <span>工作經歷</span>
+                </h2>
+            </div>
+            <div id="experience-container" class="space-y-4"></div>
+        </section>
+
+        <!-- 作品集區 -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/60 space-y-6">
+            <h2 class="text-xl font-bold text-slate-800 flex items-center space-x-2">
+                <span class="w-2.5 h-6 bg-[#D6AD9C] rounded-full"></span>
+                <span>精選作品集</span>
+            </h2>
+            <div id="portfolio-container" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
+        </section>
+
+        <!-- 專業證照區 -->
+        <section class="bg-white rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200/60 space-y-6">
+            <h2 class="text-xl font-bold text-slate-800 flex items-center space-x-2">
+                <span class="w-2.5 h-6 bg-[#71D68D] rounded-full"></span>
+                <span>專業證照</span>
+            </h2>
+            <div id="certs-container" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4"></div>
+        </section>
+
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="text-center py-8 text-xs text-slate-400 no-print">
+        <p>© 2026 陳華萱 (Hua-Xuan Chen) - 個人線上履歷</p>
+    </footer>
+
+    <!-- JavaScript 載入資料 -->
+    <script src="js/main.js"></script>
+</body>
+</html>

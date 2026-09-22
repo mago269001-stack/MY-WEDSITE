@@ -1,0 +1,205 @@
+{
+  "personal": {
+    "name": "陳華萱",
+    "enName": "Hua-Xuan Chen",
+    "title": "行政人員 / 視覺美編 / 行銷企劃人員 / 多媒體設計",
+    "status": "求職中 ",
+    "phone": "0980-810-286",
+    "email": "mago269001@gmail.com",
+    "location": "桃園市龜山區 (雙北/桃園)",
+    "education": "中國科技大學 視覺傳達科 二專畢業",
+    "avatar": "images/my.jpg",
+    "summary": "擁有近 20 年豐富的跨領域實務經歷（涵蓋行政管理、美編設計、業務客服與生管排程）。具備高度學習力與積極行動力，擅長將美編設計專長（Illustrator、Photoshop）與行政庶務、ERP 系統、AI 協作工具（ChatGPT）完美結合。工作態度嚴謹細心，重視團隊溝通與跨部門協作，致力於透過專業與效率，成為讓團隊信賴、讓客戶安心的核心夥伴。"
+  },
+  "skills": {
+    "visual": [
+      "Adobe Illustrator",
+      "Adobe Photoshop",
+      "布款印刷實務經驗",
+      "社群IG FB 發文",
+      "短影片剪輯製作",
+      "活動企畫發想與執行",
+      "手繪插畫表現"
+    ],
+    "office": [
+      "Excel (進階級)",
+      "Word / PowerPoint",
+      "ERP 系統作業",
+      "ChatGPT / Gemini 及多款 AI運用",
+      "中文打字 75 字/分",
+      "Google 雲端表單",
+      "AI 輔助UX網頁設計"
+    ],
+    "admin": [
+      "ISO 文件管理與編修",
+      "官方LINE管及客服諮詢",
+      "官網商品上架及修改",
+      "表單文件製作及管理實務",
+      "跨部門溝通協調"
+    ]
+  },
+  "experiences": [
+    {
+      "company": "myif 思齊科技有限公司",
+      "title": "美編業務專員",
+      "type": "現職",
+      "meta": "服飾品製造業 (1-30人) · 內勤業務 / 林口區",
+      "period": "2024/1 ~ 仍在職",
+      "isOpen": true,
+      "details": [
+        "<strong>客戶諮詢與印製建議：</strong>分析客戶需求，提供產品款式與印刷工法（如服裝印刷）的專業建議。",
+        "<strong>圖稿修製與視覺設計：</strong>使用 Illustrator 與 Photoshop 進行修圖、描圖、重製與版面調整，將素材轉為可印製檔案。",
+        "<strong>降低溝通誤差：</strong>製作印製示意圖並說明製作注意事項，確保成品符合客戶期待。",
+        "<strong>流程控管與行政支援：</strong>負責報價、訂單處理、款項確認及生產進度追蹤。",
+        "<strong>行銷客服：</strong>官方LINE線上及現場客依需求行銷適宜的產品，提高客人購買機會。",
+        "<strong>AI 工具應用：</strong>運用 ChatGPT 企畫及行銷發想，社群貼文發想與短影片內容規劃，提升內容互動效果，Gemini 文件管理及表單製作。",
+        "<strong>官網平台：</strong>商品修圖及後台上架更新作業。"
+      ],
+      "tags": ["#影片剪輯", "#Illustrator", "#設計表現能力", "#ChatGPT"]
+    },
+    {
+      "company": "磐采股份有限公司",
+      "title": "製造部行政人員",
+      "type": "",
+      "meta": "化學原料製造業 (100~500人) · 行政人員 / 龜山區",
+      "period": "2021/12 - 2022/10 (11個月)",
+      "isOpen": false,
+      "details": [
+        "<strong>製造部助理作業：</strong>ERP 生產工單發料轉撥、生產完成入庫、入帳作業、加班單建立、每日出缺勤確認與每月轉班排班表建立。",
+        "<strong>研發部門支援：</strong>部門領料單建立、BOM表建立工單發料、工程工單入庫作業。",
+        "<strong>進貨與文書作業：</strong>每日進貨品項收貨確認及 ERP 進貨作業；月銷售與月滯料統計表製作。",
+        "<strong>ISO與庶務管理：</strong>管理部文件收發、SDS 材料安全資料表造冊、紙本文件歸檔與現場一般行政庶務。"
+      ],
+      "tags": ["#行政事務處理", "#文書處理/排版", "#Word"]
+    },
+    {
+      "company": "華湧科技",
+      "title": "行政人員",
+      "type": "",
+      "meta": "自動控制相關業 · 龜山區",
+      "period": "2021/5 - 2021/9 (5個月)",
+      "isOpen": false,
+      "details": [
+        "接聽電話、產品諮詢服務與客戶產品問題處理。",
+        "訂單產品報價及作業追蹤，維修單開單及客戶聯絡。",
+        "依客戶設備訂單將 CAD 圖面修改為需求規格及出圖作業。",
+        "輔助交貨人員工程事項確認及排程安排聯絡，並處理相關文件申請與庶務。"
+      ],
+      "tags": []
+    },
+    {
+      "company": "錩鋼精密科技股份有限公司",
+      "title": "業務助理",
+      "type": "",
+      "meta": "其他電子零組件相關業 (100~500人) · 新莊區",
+      "period": "2020/10 - 2021/2 (5個月)",
+      "isOpen": false,
+      "details": [
+        "研發部門圖面管理及建檔，協助 RD 樣品製作與產品說明書製作。",
+        "CAD 圖面修改出圖及發行；產品可靠性測試（電阻/壽命/環境）及報告製作。",
+        "協助 RD 進行 ERP 製令單、採購單與領料單作業，依圖面量測產品尺寸是否符合規定。"
+      ],
+      "tags": []
+    },
+    {
+      "company": "春富光電",
+      "title": "行政客服專員",
+      "type": "",
+      "meta": "其他商品批發業 (1-30人) · 管理4人以下 · 樹林區",
+      "period": "2017/11 - 2020/8 (2年10個月)",
+      "isOpen": false,
+      "details": [
+        "接聽電話依客戶需求提供適合產品、簡易產品報價與問題處理。",
+        "ERP 進銷存管理庫存及出貨單繕打作業；委外廠商作業進度追蹤確認交期。",
+        "不良品反應及送修追蹤處理、生產管理跨部門聯絡及派車管理。",
+        "簡易平面 Illustrator 活動文宣製作及排版設計與一般行政庶務。"
+      ],
+      "tags": ["#客訴案件處理", "#ERP進銷存"]
+    },
+    {
+      "company": "宣承實業有限公司",
+      "title": "生產管理人員 (生管)",
+      "type": "",
+      "meta": "其他金屬相關製造業 (1~30人) · 樹林區",
+      "period": "2017/3 - 2017/10 (8個月)",
+      "isOpen": false,
+      "details": [
+        "依 SW/CAD 圖面及轉檔案出圖紙本及檔案轉送工程部展圖。",
+        "建立製程日及交貨進度記錄，每日確認出貨品項製程進度。",
+        "依 BOM 材料委外加工作排程及作業進度以達成客戶交期。",
+        "量產品庫存生產計畫，樣品材料需求採購及庫存量控管。"
+      ],
+      "tags": ["#AutoCad 2D", "#SolidWorks", "#生產排程管理"]
+    },
+    {
+      "company": "壢新醫院",
+      "title": "資材人員",
+      "type": "",
+      "meta": "醫療院所 (500人以上) · 平鎮區",
+      "period": "2006/10 - 2012/7 (5年10個月)",
+      "isOpen": false,
+      "details": [
+        "資材管理、資產檔案建立及編修、驗收及跟催、行政庶務。",
+        "衛材進出庫房管理：庫存量、儲位規劃、進出貨管理、滯廢料成本控管。",
+        "品管圈活動執行及追蹤；內部業務表單核閱與制定 SOP 作業辦法。",
+        "評鑑 ISO 文件管理及編修作業。"
+      ],
+      "tags": []
+    }
+  ],
+  "portfolios": [
+    {
+      "title": "印刷圖稿檢查及客服說明APP",
+      "category": "AI應用 印刷及客服APP開發",
+      "description": "運用 Claude 依工作上需求設計，可以即時運用查照圖檔解析度及即時可翻譯與外國客人線上服務問答，提高工作效率。",
+      "image": "images/img1.jpg",
+      "link": "https://ornate-otter-c095ab.netlify.app/"
+    },
+    {
+      "title": "AI 輔助UX網頁設計",
+      "category": "UX網頁設計",
+      "description": "AI 賦能 UX 使用者體驗網頁互動網頁設計，程式碼編修優化網頁。",
+      "image": "images/img2.jpg",
+      "link": "https://mago269001-stack.github.io/my-website-0920-1/"
+    },
+    {
+      "title": "AI 輔助社群貼文與短影音企劃",
+      "category": "行銷企劃 / 短影音",
+      "description": "素材收集的活動文案發想企畫，運用 AI 輔助似顏繪公仔進行短影片剪輯完成尾牙電子邀請卡。",
+      "image": "images/myifALL.jpg",
+      "type": "video",
+      "mediaSrc": "images/video1.mp4"
+    },
+    {
+      "title": "SOUF LANT BUBBLE SHOWER 品牌上市企劃書",
+      "category": "PDF 企劃書檔案",
+      "description": "點擊下方按鈕可進行單檔案放大檢視，線上完整閱讀詳細的品牌上市企劃書 PDF 內容。",
+      "image": "images/sofu.jpg",
+      "type": "pdf",
+      "mediaSrc": "images/SOUF LANT BUBBLE SHOWER 品牌上市企劃書.pdf"
+    },
+    {
+      "title": "舒芙泡泡浴  CIS企業識別系統",
+      "category": "PDF CIS企業識別系統",
+      "description": "線上閱讀完整的 CIS 企業識別系統 PDF 檔案，點擊可進行放大檢視與詳閱。",
+      "image": "images/CIS.jpg",
+      "type": "pdf",
+      "mediaSrc": "images/組合 1.pdf"
+    },
+    {
+      "title": "photoshop創作及插畫作品集",
+      "category": "PDF 專案企劃與影音解析",
+      "description": "結合 PDF 詳細圖文專案解析與動態影音展示，點擊可線上閱讀 PDF 報告或直接播放短影片。",
+      "image": "images/marry.jpg",
+      "type": "pdf-video",
+      "mediaSrc": "images/2023-11-23_20-20-00.mp4",
+      "pdfSrc": "images/設計作品集與創作解析.pdf"
+    }
+  ],
+  "certs": [
+    {"name": "ACP 認證", "desc": "Adobe Photoshop", "color": "lavender"},
+    {"name": "ACP 認證", "desc": "Adobe Illustrator", "color": "sky"},
+    {"name": "TQC EXCEL", "desc": "進階級認證", "color": "brown"},
+    {"name": "TQC 專業文書", "desc": "中華民國電腦技能基金會", "color": "sand"}
+  ]
+}

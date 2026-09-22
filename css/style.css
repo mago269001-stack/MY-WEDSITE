@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #F8FAFC;
+    color: #334155;
+}
+
+/* 卡片互動效果 */
+.resume-card {
+    transition: all 0.3s ease;
+}
+.resume-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(149, 143, 214, 0.15), 0 8px 10px -6px rgba(102, 191, 214, 0.1);
+}
+
+/* 列印專用樣式：控制在約 2 頁，隱藏導覽與按鈕，自動展開所有收合項目 */
+@media print {
+    body {
+        background-color: white !important;
+        color: #000 !important;
+        font-size: 11pt;
+    }
+    .no-print {
+        display: none !important;
+    }
+    .print-break-inside {
+        break-inside: avoid;
+    }
+    .print-page-break {
+        page-break-before: always;
+    }
+    details > summary::after {
+        display: none !important;
+    }
+    details > div {
+        display: block !important;
+    }
+    header {
+        background: white !important;
+        color: black !important;
+        border-bottom: 2px solid #66BFD6;
+    }
+    .shadow-md, .shadow-lg, .shadow-sm {
+        box-shadow: none !important;
+    }
+    .border {
+        border-color: #cbd5e1 !important;
+    }
+}
